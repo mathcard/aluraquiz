@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border: 1px solid ${({ theme }) => theme.colors.wrong};
   background-color: ${({ theme }) => {
     return theme.colors.mainBg;
   }};
@@ -17,7 +17,7 @@ const Widget = styled.div`
     margin-bottom: 0;
   }
   p {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1;
   }
